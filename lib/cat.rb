@@ -14,7 +14,7 @@ class Cat
   def mood
     Owner.play_with_cats
 end
-end 
+
 
 
 end
