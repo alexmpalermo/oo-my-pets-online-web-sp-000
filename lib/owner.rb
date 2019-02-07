@@ -70,7 +70,7 @@ end
   end 
   
   def sell_pets
-    @pets.
+    @pets.clear
   end
   
   def list_pets
