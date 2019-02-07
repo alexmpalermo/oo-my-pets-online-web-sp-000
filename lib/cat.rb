@@ -12,8 +12,9 @@ class Cat
   end 
   
   def mood
-    if Owner.play_with_cats
-      @mood = "happy"
+    Owner.play_with_cats
 end
 end 
+
+
 end
