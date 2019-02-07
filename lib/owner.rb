@@ -73,6 +73,9 @@ end
     @pets[:dogs].each do |pet|
       pet.mood = "nervous"
     end 
+    @pets[:dogs].each do |pet|
+      pet.mood = "nervous"
+    end
     
     @pets.clear
   end
