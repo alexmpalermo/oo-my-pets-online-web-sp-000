@@ -5,7 +5,7 @@ class Owner
   
   @@all = []
   @@count = 0 
-  @@reset_all = []
+  @@reset_all = @@all.clear
   
   def initialize(species)
     @name = name 
