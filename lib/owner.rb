@@ -73,10 +73,12 @@ end
     @pets[:dogs].each do |pet|
       pet.mood = "nervous"
     end 
-    @pets[:dogs].each do |pet|
+    @pets[:cats].each do |pet|
       pet.mood = "nervous"
     end
-    
+    @pets[:fishes].each do |pet|
+      pet.mood = "nervous"
+    end 
     @pets.clear
   end
   
