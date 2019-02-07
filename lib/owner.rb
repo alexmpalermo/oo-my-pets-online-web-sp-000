@@ -5,7 +5,7 @@ class Owner
   
   @@all = []
   @@count = 0 
-  @@reset_all = @@all.clear
+  @@reset_all = [] 
   
   def initialize(species)
     @name = name 
@@ -33,7 +33,7 @@ class Owner
   end 
   
   def self.reset_all
-    @@reset_all 
+    @@reset_all = @@all.clear 
   end 
   
   def buy_cat(name)
