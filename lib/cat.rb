@@ -8,7 +8,7 @@ class Cat
   
   def name=(name)
     @name = name
-   raise NoMethodError if self.name
+   raise NoMethodError if !name.nil?
   end 
   
   def mood
