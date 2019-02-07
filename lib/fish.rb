@@ -7,6 +7,6 @@ class Fish
   
   def name=(name)
     @name = name
-    
+    raise NoMethodError if !name.nil?
   end 
 end
