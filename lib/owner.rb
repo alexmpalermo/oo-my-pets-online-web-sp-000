@@ -21,9 +21,7 @@ class Owner
   end 
   
   def say_species
-   if @species == "human"
      puts "I am a human."
-   end 
   end
   
   def self.all
