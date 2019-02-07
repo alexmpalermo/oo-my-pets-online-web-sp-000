@@ -34,7 +34,7 @@ class Owner
   end 
   
   def self.reset_all
-    @@reset_all
+    @@reset_all 
   end 
   
   def buy_cat(name)
@@ -53,7 +53,8 @@ class Owner
   end 
   
   def walk_dogs
-    
+    @pets[:dogs].each do |dog|
+      dog.mood = "happy"
   end 
   
   def play_with_cats
