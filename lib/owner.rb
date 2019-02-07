@@ -83,7 +83,7 @@ end
   end
   
   def list_pets
-    
+    puts "I have #{@pets[:fishes].size} fish, "
   end 
   
   
