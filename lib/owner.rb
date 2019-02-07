@@ -17,7 +17,7 @@ class Owner
   
   def species=(species)
     @species = species
-    
+    raise NoMethodError if !species.nil?
   end 
   
   def say_species
