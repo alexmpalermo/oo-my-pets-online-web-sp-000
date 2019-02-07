@@ -8,7 +8,7 @@ class Cat
   
   def name=(name)
     @name = name
-   self.name.freeze
+   raise NoMethodError if self.name
   end 
   
   def mood
