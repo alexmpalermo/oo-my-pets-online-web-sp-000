@@ -15,5 +15,5 @@ class Cat
     if Owner.play_with_cats
       @mood = "happy"
 end
-  
+end 
 end
