@@ -14,9 +14,6 @@ class Cat
   def mood
     if Owner.play_with_cats
       @mood = "happy"
-    else 
-      @mood = "nervous"
-    end 
 end
   
 end
